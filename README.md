@@ -736,7 +736,7 @@ Caused by: org.apache.flink.core.fs.UnsupportedFileSystemSchemeException: Hadoop
 
 提交之后，访问Flink的Web界面，查看任务：
 
-![](项目实践-基于Flink的用户行为日志分析系统/FlinkWEB.png)
+![](https://github.com/jiamx/flink-log-analysis/blob/master/FlinkWEB.png)
 
 此时访问论坛，点击板块和帖子文章，观察数据库变化：
 
