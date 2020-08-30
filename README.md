@@ -6,7 +6,7 @@
 
 ## 代码结构
 
-![](https://github.com/jiamx/flink-log-analysis/blob/master/%E6%97%A5%E5%BF%97%E6%9E%B6%E6%9E%84.png)
+![](https://github.com/jiamx/flink-log-analysis/blob/master/%E9%A1%B9%E7%9B%AE%E4%BB%A3%E7%A0%81.png)
 
 首先会先搭建一个论坛平台，对论坛平台产生的用户点击日志进行分析。然后使用Flume日志收集系统对产生的Apache日志进行收集，并将其推送到Kafka。接着我们使用Flink对日志进行实时分析处理，将处理之后的结果写入MySQL供前端应用可视化展示。本文主要实现以下三个指标计算：
 
