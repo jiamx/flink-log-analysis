@@ -1,5 +1,10 @@
 # flink-log-analysis
+## 项目架构图
 从0到1基于Flink实现一个实时的用户行为日志分析系统，基本架构图如下：
+
+![](https://github.com/jiamx/flink-log-analysis/blob/master/%E6%97%A5%E5%BF%97%E6%9E%B6%E6%9E%84.png)
+
+## 代码结构
 
 
 
