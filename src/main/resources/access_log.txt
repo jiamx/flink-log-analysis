@@ -1,0 +1,85 @@
+127.0.0.1 - - [07/Dec/2017:19:36:27 +0800] "GET /test.php HTTP/1.1" 200 73946 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Firefox/24.0"
+192.168.1.1 - - [07/Dec/2017:19:37:51 +0800] "GET /robots.txt HTTP/1.1" 404 208 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"
+192.168.1.1 - - [07/Dec/2017:19:37:51 +0800] "GET /test.php HTTP/1.1" 200 74407 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"
+192.168.1.1 - - [07/Dec/2017:19:37:53 +0800] "GET /favicon.ico HTTP/1.1" 404 209 "http://192.168.1.10/test.php" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"
+192.168.1.1 - - [07/Dec/2017:19:38:43 +0800] "-" 408 - "-" "-"
+192.168.1.1 - - [07/Dec/2017:19:40:07 +0800] "GET /test.php HTTP/1.1" 200 74462 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"
+192.168.1.1 - - [07/Dec/2017:19:40:37 +0800] "GET / HTTP/1.1" 403 4897 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"
+192.168.1.1 - - [07/Dec/2017:19:41:01 +0800] "GET /abc HTTP/1.1" 404 201 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"
+192.168.169.50 - - [17/Feb/2012:10:09:13 +0800] "GET /favicon.ico HTTP/1.1" 404 288 "-" "360se"
+192.168.169.50 - - [17/Feb/2012:10:36:26 +0800] "GET / HTTP/1.1" 403 5043 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0"
+192.168.169.50 - - [17/Feb/2012:10:36:26 +0800] "GET /icons/powered_by_rh.png HTTP/1.1" 200 1213 "http://192.168.55.230/" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0"
+192.168.169.50 - - [17/Feb/2012:10:09:10 +0800] "GET /icons/powered_by_rh.png HTTP/1.1" 200 1213 "http://192.168.55.230/" "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; InfoPath.2; 360SE)"
+192.168.55.230 - - [24/Feb/2012:09:48:58 +0800] "GET /favicon.ico HTTP/1.1" 404 288 "-" "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.24) Gecko/20111109 CentOS/3.6-3.el5.centos Firefox/3.6.24"
+192.168.169.50 - - [24/Feb/2012:09:45:03 +0800] "GET /server-status HTTP/1.1" 404 290 "-" "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; InfoPath.2; 360SE)"
+192.168.55.230 - - [24/Feb/2012:09:49:02 +0800] "GET / HTTP/1.1" 403 5043 "-" "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.24) Gecko/20111109 CentOS/3.6-3.el5.centos Firefox/3.6.24"
+192.168.55.230 - - [24/Feb/2012:09:49:02 +0800] "GET /icons/apache_pb.gif HTTP/1.1" 200 2326 "http://192.168.55.230/" "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.24) Gecko/20111109 CentOS/3.6-3.el5.centos Firefox/3.6.24"
+192.168.55.230 - - [24/Feb/2012:09:49:02 +0800] "GET /icons/powered_by_rh.png HTTP/1.1" 200 1213 "http://192.168.55.230/" "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.24) Gecko/20111109 CentOS/3.6-3.el5.centos Firefox/3.6.24"
+192.168.55.230 - - [24/Feb/2012:09:49:20 +0800] "GET /server-status HTTP/1.1" 404 290 "-" "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.24) Gecko/20111109 CentOS/3.6-3.el5.centos Firefox/3.6.24"
+192.168.1.1 - - [12/Jan/2018:21:01:04 +0800] "GET /about/forum.php?mod=ajax&action=forumchecknew&fid=40&time=1515762003&inajax=yes HTTP/1.1" 200 64 "http://192.168.1.10/about/forum.php?mod=forumdisplay&fid=40" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
+192.168.1.1 - - [12/Jan/2018:21:02:22 +0800] "GET /about/forum.php?mod=ajax&action=forumchecknew&fid=40&time=1515762111&inajax=yes HTTP/1.1" 200 64 "http://192.168.1.10/about/forum.php?mod=forumdisplay&fid=40" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
+192.168.1.1 - - [12/Jan/2018:21:03:09 +0800] "GET /about/forum.php?mod=viewthread&tid=5&extra=page%3D1 HTTP/1.1" 200 36838 "http://192.168.1.10/about/forum.php?mod=forumdisplay&fid=40" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
+192.168.1.1 - - [14/Jan/2018:16:47:36 +0800] "-" 408 - "-" "-"
+
+199.180.11.91 - - [06/Mar/2019:04:22:58 +0100] "GET /robots.txt HTTP/1.1" 404 1228 "-" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)"
+
+61.135.219.2 访问来源IP
+'-' 远端登录名(由identd而来，如果支持的话)
+'-' 远程用户名
+[01/Jan/2014:00:02:02 +0800] 请求时间，格式为[day/month/year:hour:minute:second zone]
+"GET /feed/ HTTP/1.0" 请求内容，格式为"%m %U%q %H"，即"请求方法/访问路径/协议"
+200 状态码
+12306 返回数据大小
+“%{User-Agent}i”	http_user_agent	客户端信息。
+“%{Rererer}i”	http_referer	来源页。
+
+
+
+ LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+
+
+
+
+
+ 1客户端的IP地址。
+ 2 由客户端identd进程判断的RFC1413身份(identity),输出中的符号"-"表示此处的信息无效。
+ 3HTTP认证系统得到的访问该网页的客户标识(userid),如果网页没有设置密码保护，则此项将是"-"。
+ 4服务器完成请求处理时的时间。
+ 5客户的动作\请求的资源\使用的协议。
+ 6服务器返回给客户端的状态码。
+ 7返回给客户端的不包括响应头的字节数.如果没有信息返回，则此项应该是"-"。
+ 8"Referer"请求头。
+ 9User-Agent"请求头。
+
+
+
+
+
+
+
+ （1）183.69.210.164
+ 这是一个请求到apache服务器的客户端ip,默认的情况下,第一项信息只是远程主机的ip地址,但我们如果需要apache查出主机的名字
+ （2）-
+ 这一项是空白,使用"-"来代替,这个位置是用于标注访问者的标示
+ （3） -
+ 这一项又是为空白,不过这项是用户记录用户HTTP的身份验证,如果某些网站要求用户进行身份雁阵,那么这一项就是记录用户的身份信息
+ （4）==[07/Apr/2017:09:32:39 +0800] ==
+ 第四项是记录请求的时间,格式为[day/month/year:hour:minute:second zone],最后的+0800表示服务器所处的时区为东八区
+ （5）GET /member/ HTTP/1.1
+ 这一项是最有用的信息,它告诉我们的服务器收到的是一个GET请求,其次,是客户端请求的资源路径
+ （6)302
+ 是一个状态码,由服务器端发送回客户端,它告诉我们客户端的请求是否成功,或者是重定向,或者是碰到了什么样的错误,这项值为302 这项值以2开头的表示请求成功,以3开头的表示重定向,以4开头的标示客户端存在某些的错误,以5开头的标示服务器端
+ （7）31
+ 这项表示服务器向客户端发送了多少的字节,在日志分析统计的时侯,把这些字节加起来就可以得知服务器在某点时间内总的发送数据量是多少
+ （8） -
+ 没有值时是直接打开网页的原因，而有值时告诉服务器我是从哪个页面链接过来的
+ (9) “Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36
+ (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE
+ 2.X MetaSr 1.0”
+ 这项主要记录客户端的浏览器信息
+
+
+
+(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}) (\S+) (\S+) (\[.+?\]) (\"(.*?)\") (\d{3}) (\S+) (\"(.*?)\") (\"(.*?)\")
+
+
